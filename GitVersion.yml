@@ -4,6 +4,7 @@ next-version: 1.0.0
 branches:
   master:
     regex: ^master$
+    is-release-branch: true
   develop:
     regex: ^develop$
 ignore:
